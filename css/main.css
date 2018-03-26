@@ -166,7 +166,7 @@ h1 {
     color: whitesmoke;
     text-align: center;
     width: 99.4%;
-    height: 200px;
+    /*  height: 200px; */
     border: groove;
     border-radius: 15px;
 }
@@ -188,11 +188,10 @@ h1 {
 }
 
 .main-footer {
-    background-color none;
     width: 100%;
-    height: 50px;
+    /*height: 50px;
     margin-top: 10px;
-    border-bottom: 10px;
+    border-bottom: 10px; */
 }
 
 p {
@@ -262,7 +261,7 @@ for different sized screens  */
 .flexcol {
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     align-items: stretch;
 }
 

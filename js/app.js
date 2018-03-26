@@ -4,3 +4,9 @@ document.getElementById('random').onclick = function() {
     var random = Math.floor(Math.random() * 100);
     alert('You are ' + random + '% lucky today!');
 }
+
+document.getElementById('random').onclick = luckRoll;
+
+function myFunction() {
+    alert('You are ' + random + '% lucky today!');
+}
